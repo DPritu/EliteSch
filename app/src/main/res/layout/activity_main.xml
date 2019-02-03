@@ -118,9 +118,7 @@
                     android:layout_marginStart="80dp"
                     android:layout_marginTop="10dip"
                     android:fontFamily="@font/gotham_pro_bold"
-                    android:text="@string/mdk0201"
-
-                    android:textSize="14sp" />
+                    android:text="@string/mdk0201" />
 
                 <TextView
                     android:id="@+id/textView6"
