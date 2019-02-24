@@ -13,12 +13,12 @@
     <string name="kab36">Кабинет 36</string>
     <string name="kab38">Кабинет 38</string>
     <string name="kab43">Кабинет 43</string>
-    <string name="mdk0201">МДК 02.01 Разработка и внедрение ПО</string>
+    <string name="mdk0201">МДК 02.01\nРазработка и внедрение ПО</string>
     <string name="oeu">Основы экономического учёта</string>
     <string name="iya">Иностранный язык</string>
     <string name="fizra">Физическая культура</string>
     <string name="ontd">Оформление НТД</string>
-    <string name="mdk0301">МДК 03.01 Сопровождение и продвижение ПО</string>
+    <string name="mdk0301">МДК 03.01\nСопровождение и продвижение ПО</string>
     <string name="pn">Понедельник</string>
     <string name="vt">Вторник</string>
     <string name="sr">Среда</string>
