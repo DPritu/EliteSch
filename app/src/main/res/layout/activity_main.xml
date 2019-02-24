@@ -64,7 +64,10 @@
                 android:id="@+id/cardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -146,7 +149,10 @@
                 android:id="@+id/cardView1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -245,7 +251,10 @@
                 android:id="@+id/cardView2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -344,7 +353,10 @@
                 android:id="@+id/cardView3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -427,7 +439,10 @@
                 android:id="@+id/cardView4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -526,7 +541,10 @@
                 android:id="@+id/cardView5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -625,7 +643,10 @@
                 android:id="@+id/cardView6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -708,7 +729,10 @@
                 android:id="@+id/cardView7"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -807,7 +831,10 @@
                 android:id="@+id/cardView8"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -906,7 +933,10 @@
                 android:id="@+id/cardView9"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -989,7 +1019,10 @@
                 android:id="@+id/cardView10"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1088,7 +1121,10 @@
                 android:id="@+id/cardView11"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1187,7 +1223,10 @@
                 android:id="@+id/cardView12"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1270,7 +1309,10 @@
                 android:id="@+id/cardView13"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1369,7 +1411,10 @@
                 android:id="@+id/cardView14"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1468,7 +1513,10 @@
                 android:id="@+id/cardView15"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1551,7 +1599,10 @@
                 android:id="@+id/cardView16"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1650,7 +1701,10 @@
                 android:id="@+id/cardView17"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_margin="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 app:cardBackgroundColor="@color/colorPrimary"
                 app:cardCornerRadius="30dp">
 
@@ -1737,13 +1791,13 @@
                 android:layout_marginTop="34dp"
                 android:layout_marginBottom="34dp"
                 android:clickable="true"
+                android:contentDescription="@string/author"
                 android:focusable="true"
                 app:layout_constraintBottom_toTopOf="@+id/cardView"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_dp"
-                android:contentDescription="@string/author" />
+                app:srcCompat="@drawable/ic_dp" />
         </LinearLayout>
     </ScrollView>
 

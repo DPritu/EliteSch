@@ -6,7 +6,7 @@ android {
         applicationId "ru.dp.elitesch"
         minSdkVersion 24
         targetSdkVersion 28
-        versionCode 12
+        versionCode 13
         versionName "2.2"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
