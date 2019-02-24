@@ -13,7 +13,6 @@
         android:layout_height="100dp"
         android:background="@drawable/gradient_background"
         android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +24,6 @@
         android:layout_marginBottom="25dp"
         android:fontFamily="@font/gotham_pro_light"
         android:text="@string/app_name"
-
         android:textColor="@android:color/background_light"
         android:textSize="26sp"
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
@@ -33,7 +31,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <ScrollView
-        android:id="@+id/scrollView6"
+        android:id="@+id/scrollView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,7 +50,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/pn"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -67,13 +65,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -82,33 +81,37 @@
                     android:id="@+id/textView1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -116,7 +119,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="80dp"
-                    android:layout_marginTop="10dip"
+                    android:layout_marginTop="10dp"
                     android:fontFamily="@font/gotham_pro_bold"
                     android:text="@string/mdk0201" />
 
@@ -144,14 +147,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -160,33 +164,37 @@
                     android:id="@+id/textView8"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -238,14 +246,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view2"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -254,33 +263,37 @@
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t9" />
 
                 <TextView
                     android:id="@+id/textView16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t11" />
 
                 <TextView
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t12" />
 
                 <TextView
@@ -317,7 +330,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/vt"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -332,14 +345,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view3"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -348,33 +362,37 @@
                     android:id="@+id/textView23"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView24"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView26"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -410,14 +428,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view4"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -426,33 +445,37 @@
                     android:id="@+id/textView30"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView31"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView32"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView33"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -504,14 +527,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view5"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -520,33 +544,37 @@
                     android:id="@+id/textView37"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t9" />
 
                 <TextView
                     android:id="@+id/textView938"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView39"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t11" />
 
                 <TextView
                     android:id="@+id/textView40"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t12" />
 
                 <TextView
@@ -583,7 +611,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/sr"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -598,14 +626,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view6"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -614,33 +643,37 @@
                     android:id="@+id/textView45"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView46"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView47"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView48"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -676,14 +709,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view7"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -692,33 +726,37 @@
                     android:id="@+id/textView52"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView53"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView54"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView55"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -770,14 +808,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view8"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -786,33 +825,37 @@
                     android:id="@+id/textView59"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t9" />
 
                 <TextView
                     android:id="@+id/textView60"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView61"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t11" />
 
                 <TextView
                     android:id="@+id/textView62"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t12" />
 
                 <TextView
@@ -849,7 +892,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/ch"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -864,14 +907,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view9"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -880,33 +924,37 @@
                     android:id="@+id/textView67"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView68"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView69"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView70"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -942,14 +990,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view10"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -958,33 +1007,37 @@
                     android:id="@+id/textView74"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView75"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView76"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView77"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -1036,14 +1089,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view11"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1052,33 +1106,37 @@
                     android:id="@+id/textView81"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t13" />
 
                 <TextView
                     android:id="@+id/textView82"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t14" />
 
                 <TextView
                     android:id="@+id/textView83"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView84"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t15" />
 
                 <TextView
@@ -1115,7 +1173,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/pt"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -1130,14 +1188,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view12"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1146,33 +1205,37 @@
                     android:id="@+id/textView89"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView90"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView91"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView92"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -1208,14 +1271,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view13"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1224,33 +1288,37 @@
                     android:id="@+id/textView96"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView97"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView98"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView99"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -1302,14 +1370,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view14"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1318,33 +1387,37 @@
                     android:id="@+id/textView103"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t9" />
 
                 <TextView
                     android:id="@+id/textView104"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView105"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t11" />
 
                 <TextView
                     android:id="@+id/textView106"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t12" />
 
                 <TextView
@@ -1381,7 +1454,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/gotham_pro_medium"
                 android:paddingTop="32dp"
-                android:paddingBottom="24dp"
+                android:paddingBottom="32dp"
                 android:text="@string/sb"
                 android:textAlignment="center"
                 android:textColor="@color/colorTitle"
@@ -1396,14 +1469,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view15"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1412,33 +1486,37 @@
                     android:id="@+id/textView111"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t1" />
 
                 <TextView
                     android:id="@+id/textView112"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t2" />
 
                 <TextView
                     android:id="@+id/textView113"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t3" />
 
                 <TextView
                     android:id="@+id/textView114"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t4" />
 
                 <TextView
@@ -1474,14 +1552,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view16"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1490,33 +1569,37 @@
                     android:id="@+id/textView118"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t5" />
 
                 <TextView
                     android:id="@+id/textView119"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t6" />
 
                 <TextView
                     android:id="@+id/textView120"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t7" />
 
                 <TextView
                     android:id="@+id/textView121"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t8" />
 
                 <TextView
@@ -1568,14 +1651,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
-                app:cardBackgroundColor="@color/colorPrimary">
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="30dp">
 
 
                 <View
                     android:id="@+id/view17"
                     android:layout_width="4dp"
                     android:layout_height="88dp"
-                    android:layout_marginStart="63dp"
+                    android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
                     android:background="#FFFFFF" />
@@ -1584,33 +1668,37 @@
                     android:id="@+id/textView125"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t9" />
 
                 <TextView
                     android:id="@+id/textView126"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="30dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t10" />
 
                 <TextView
                     android:id="@+id/textView127"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="60dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t11" />
 
                 <TextView
                     android:id="@+id/textView128"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
+                    android:layout_marginStart="18dp"
                     android:layout_marginTop="80dp"
                     android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/lato_regular"
                     android:text="@string/t12" />
 
                 <TextView
@@ -1640,6 +1728,22 @@
 
 
             </android.support.v7.widget.CardView>
+
+            <ImageView
+                android:id="@+id/DP_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="34dp"
+                android:layout_marginBottom="34dp"
+                android:clickable="true"
+                android:focusable="true"
+                app:layout_constraintBottom_toTopOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_dp"
+                android:contentDescription="@string/author" />
         </LinearLayout>
     </ScrollView>
 

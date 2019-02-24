@@ -1,10 +1,14 @@
 <AppUpdater>
 <update>
-<latestVersion>2.0</latestVersion>
-<latestVersionCode>10</latestVersionCode>
+<latestVersion>2.2</latestVersion>
+<latestVersionCode>12</latestVersionCode>
 <url>http://pritu.ru/dev/eliteschedule/EliteSch.apk</url>
 <releaseNotes>
-— Новое, написанное с нуля приложение с крутым дизайном.
+— Обновленный дизайн в стиле One UI
+— Новая иконка приложения
+— Новый шрифт для цифр
+— Добавлен логотип разработчика для перехода на сайт
+— Небольшие изменения отступов
 </releaseNotes>
 </update>
 </AppUpdater>

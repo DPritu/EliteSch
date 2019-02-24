@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Элитное расписание</string>
+    <string name="author">Данил Притуляков</string>
     <string name="syretsky">Сырецкий С.А.</string>
     <string name="serkova">Серкова С.П.</string>
     <string name="kiseleva">Киселёва Н.Н.</string>
