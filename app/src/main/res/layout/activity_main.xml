@@ -71,7 +71,7 @@
 
                 <View
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -154,7 +154,7 @@
                 <View
                     android:id="@+id/view"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -253,7 +253,7 @@
                 <View
                     android:id="@+id/view2"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -352,7 +352,7 @@
                 <View
                     android:id="@+id/view3"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -435,7 +435,7 @@
                 <View
                     android:id="@+id/view4"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -534,7 +534,7 @@
                 <View
                     android:id="@+id/view5"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -633,7 +633,7 @@
                 <View
                     android:id="@+id/view6"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -716,7 +716,7 @@
                 <View
                     android:id="@+id/view7"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -815,7 +815,7 @@
                 <View
                     android:id="@+id/view8"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -914,7 +914,7 @@
                 <View
                     android:id="@+id/view9"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -997,7 +997,7 @@
                 <View
                     android:id="@+id/view10"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1096,7 +1096,7 @@
                 <View
                     android:id="@+id/view11"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1195,7 +1195,7 @@
                 <View
                     android:id="@+id/view12"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1278,7 +1278,7 @@
                 <View
                     android:id="@+id/view13"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1377,7 +1377,7 @@
                 <View
                     android:id="@+id/view14"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1476,7 +1476,7 @@
                 <View
                     android:id="@+id/view15"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1559,7 +1559,7 @@
                 <View
                     android:id="@+id/view16"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
@@ -1658,7 +1658,7 @@
                 <View
                     android:id="@+id/view17"
                     android:layout_width="4dp"
-                    android:layout_height="88dp"
+                    android:layout_height="90dp"
                     android:layout_marginStart="65dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
